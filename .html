@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a7a</title>
+    <style>
+
+        body{
+            background-image: linear-gradient(to left,black,rgb(82, 0, 0),black);
+        }
+        #app{
+            width: 100%;
+            
+        }
+        #text{
+            width: 50% ;
+            height: 100px;
+            margin-left: 300px;
+
+        }
+        #select{
+            width: 15%;
+            margin-left: 550px;
+            margin-bottom: 10px;
+            
+        }
+        #text_result{
+            border-bottom: 2px solid black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            color: aliceblue;
+        }
+        #result{
+            margin-left: 300px;
+            width: 50% ;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <main id="app">
+<select id="select">
+    <option value="encode">تشفير</option>
+    <option value="decode">الغاء التشفير</option>
+</select>
+<textarea id="text"></textarea>
+<p id="text_result">Result</p>
+<textarea id="result"></textarea>
+    </main>
+    <script src=".js"></script>
+</body>
+</html>
